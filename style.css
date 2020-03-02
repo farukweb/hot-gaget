@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', 'sans-serif' ;
+}
+img {
+    max-width: 100%;
+}
+.Mackbook {
+    margin-bottom: 20px;
+}
+.paragraph {
+    margin-bottom: 35px;
+}
+a.buy-btn {
+    padding: 15px 25px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    display: table;
+    width: fit-content;
+}
+
+.card a.buy-btn {
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+a i {
+    margin-left: 8px;
+    font-weight: 300;
+    font-size: 16px;
+}
+a:hover {
+    text-decoration: none;
+    
+}
+a.nav-link:hover {
+    color: #FFD019;
+}
+h3 {
+    font-size: 24px;
+    margin-bottom: 14px;
+    margin-top: 28px;
+}
+.single-item-pic p {
+    margin-bottom: 5px;
+}
+h2.title {
+    font-size: 35px;
+    position: relative;
+    margin: 0 auto;
+    display: inline-block;
+    margin-bottom: 70px;
+    padding-bottom: 18px;
+}
+h2.title:after {
+    position: absolute;
+    content: "";
+    height: 11px;
+    width: 135px;
+    background: transparent linear-gradient(142deg, #FF9C35 0%, #FFD019 100%) 0% 0% 
+    no-repeat padding-box;
+    border-radius: 10px;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+p {
+    color: #707070;
+}
+.smartphone-area h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+p.color-text {
+    font-size: 19px;
+    font-weight: 600;
+    color: #FF9D00 !important;
+    cursor: pointer;
+}
+
+
+header {
+    padding: 15px 0;
+}
+.navbar-brand img {
+    max-width: 155px;
+}
+.navbar-nav a {
+    color: #000;
+}
+
+
+.carousel-indicators li {
+    height: 12px;
+    width: 16px;
+    background-color: rgb(168, 168, 168);
+    border-radius: 35%;
+}
+.carousel-indicators li.active {
+    width: 45px;
+    background: transparent linear-gradient(142deg, #FF9C35 0%, #FFD019 100%) 0% 0% 
+    no-repeat padding-box;
+    border-radius: 30%;
+}
+
+.smartphone-area {
+    padding: 150px 0 75px;
+}
+.smartphone-area {
+    margin-bottom: 50px;
+}
+.smartphone-area h2, p {
+    margin-bottom: 0;
+}
+.card {
+    margin-bottom: 25px;
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 12px rgba(212, 211, 211, 0.82);
+}
+
+.laptop-area {
+    padding: 75px;
+}
+.laptop-area-title {
+    margin-bottom: 50px;
+}
+.laptop-area-title h2, p {
+    margin-bottom: 0;
+}
+
+.catagories {
+    padding: 75px 0;
+}
+.cat-img img {
+    
+    width: 225px;
+    padding: 45px;
+    box-shadow: 0px 0px 20px rgba(212, 211, 211, 0.637);
+}
+.cat-img-21, .cat-img-22 {
+    border-radius: 8px 4px 16px 4px;
+}
+.cat-img-11 {
+    border-radius: 4px 8px 4px 16px;
+}
+
